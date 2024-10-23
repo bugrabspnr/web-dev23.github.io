@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="sekil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>İletişim</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimda.html">Hakkımda</a></li>
+                <li><a href="anket.html">Anket</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="iletisimh">Bana Ulaşın</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Adınız:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="İsminizi giriniz." required><br></td>
+                </tr>
+                <tr>
+                    <td><label for="surname">Soyadınız:</label></td>
+                    <td><input type="text" id="surname" name="surname" placeholder="Soyisminizi giriniz."></td>
+                </tr>
+                <tr>
+                    <td><label for="phonenumber">Telefon numaranız:</label></td>
+                    <td><input type="phonenumber" id="phonenumber" name="phonenumber" maxlength="11"
+                            placeholder="İsteğe bağlıdır."></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="abc123@gmail.com"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Mesajınız:</label></td>
+                    <td><textarea name="message" id="message" placeholder="Mesajınızı yazınız." required></textarea><br></td>
+                </tr>
+
+
+
+
+            </table>
+            <tr>
+                <td><input type="submit" value="Gönder"></td>
+                <td><input type="reset" value="Temizle"></td>
+            </tr>
+        </form> 
+    </main>
+
+        <footer>
+            <div class="socialmedia">
+                İnstagram için :<a href="https://www.instagram.com/bugrabspnr/" target="_blank" class="socialicon"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <p>Blog sayfam hakkında öneri ve görüşlerinizi bekliyorum.</p>
+        </footer>
+</body>
+
+</html>
